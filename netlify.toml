@@ -1,0 +1,22 @@
+# Netlify configuration for OJ Holdings LLC
+
+[build]
+  # Base directory where frontend lives
+  base = "frontend/"
+  
+  # Build command for Create React App
+  command = "yarn build"
+  
+  # Output directory after build (CRA outputs to 'build')
+  publish = "build"
+
+# Environment variables for build
+[build.environment]
+  NODE_VERSION = "18"
+  YARN_VERSION = "1.22.19"
+
+# Redirects for SPA (React Router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
