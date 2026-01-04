@@ -50,13 +50,6 @@ const Footer = () => {
                 <Mail size={18} className="text-amber-500" />
                 {companyInfo.email}
               </a>
-              <a
-                href={`tel:${companyInfo.phone}`}
-                className="flex items-center gap-3 text-white/60 hover:text-amber-500 transition-colors duration-300 text-sm"
-              >
-                <Phone size={18} className="text-amber-500" />
-                {companyInfo.phone}
-              </a>
               <div className="flex items-center gap-3 text-white/60 text-sm">
                 <MapPin size={18} className="text-amber-500" />
                 {companyInfo.headquarters}
