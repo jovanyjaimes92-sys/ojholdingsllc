@@ -14,7 +14,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img 
-              src="https://customer-assets.emergentagent.com/job_9e6d9073-bb02-4867-b451-c2dd9e23610a/artifacts/ic3sqtvg_Screenshot_2026-01-04_112722-removebg-preview%20%281%29.png"
+              src="https://customer-assets.emergentagent.com/job_9e6d9073-bb02-4867-b451-c2dd9e23610a/artifacts/5xi4sk5s_Asset%203.png"
               alt="OJ Holdings Logo"
               className="w-12 h-12 object-contain group-hover:scale-105 transition-transform duration-300"
             />
