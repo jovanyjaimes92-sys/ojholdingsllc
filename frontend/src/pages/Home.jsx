@@ -63,7 +63,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-amber-500/10 blur-3xl rounded-full" />
                 <div className="relative w-96 h-96 flex items-center justify-center">
                   <img 
-                    src="https://customer-assets.emergentagent.com/job_9e6d9073-bb02-4867-b451-c2dd9e23610a/artifacts/ic3sqtvg_Screenshot_2026-01-04_112722-removebg-preview%20%281%29.png"
+                    src="https://customer-assets.emergentagent.com/job_9e6d9073-bb02-4867-b451-c2dd9e23610a/artifacts/5xi4sk5s_Asset%203.png"
                     alt="OJ Holdings Lion Emblem"
                     className="w-80 h-80 object-contain"
                   />
