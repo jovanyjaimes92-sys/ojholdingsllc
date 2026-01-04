@@ -13,13 +13,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 flex items-center justify-center">
-              <svg viewBox="0 0 100 100" className="w-10 h-10 fill-amber-500 group-hover:fill-amber-400 transition-colors duration-300">
-                <path d="M50 5C30 5 15 20 15 35c0 10 5 18 12 23-5 3-10 8-12 15-3 10 0 22 10 27 15 8 35 8 50 0 10-5 13-17 10-27-2-7-7-12-12-15 7-5 12-13 12-23C85 20 70 5 50 5zm-20 30c0-12 10-20 20-20s20 8 20 20c0 8-5 15-12 18-2-1-5-2-8-2s-6 1-8 2c-7-3-12-10-12-18zm5 35c-3-8 2-15 8-18 5 3 10 5 17 5s12-2 17-5c6 3 11 10 8 18-2 5-8 10-25 10s-23-5-25-10z"/>
-                <circle cx="40" cy="32" r="4"/>
-                <circle cx="60" cy="32" r="4"/>
-              </svg>
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_9e6d9073-bb02-4867-b451-c2dd9e23610a/artifacts/ic3sqtvg_Screenshot_2026-01-04_112722-removebg-preview%20%281%29.png"
+              alt="OJ Holdings Logo"
+              className="w-12 h-12 object-contain group-hover:scale-105 transition-transform duration-300"
+            />
             <span className="text-xl font-semibold text-white tracking-tight">OJ Holdings</span>
           </Link>
 
