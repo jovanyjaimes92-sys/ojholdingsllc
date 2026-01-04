@@ -6,8 +6,7 @@ export const companyInfo = {
   description: "OJ Holdings LLC is a premier holding company dedicated to acquiring, nurturing, and growing exceptional businesses across diverse industries.",
   founded: "2020",
   headquarters: "United States",
-  email: "contact@ojholdings.com",
-  phone: "+1 (555) 123-4567"
+  email: "ojholdingsllc@outlook.com"
 };
 
 export const aboutContent = {
